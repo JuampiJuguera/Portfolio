@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2ab6276190.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet"> 
+    <title>Juan Pablo Juguera - Portfolio</title>
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <div class="nav__bar">
+            <i class="fa-solid fa-bars" onclick="hideMenu()"></i>
+            <div class="nav__links" id="id__links">
+                    <a class="nav__link" href="#home">Home</a>
+                    <a class="nav__link nav__link-color" href="#about">About me</a>
+                    <a class="nav__link" href="#projects">Projects</a>
+                    <a class="nav__link nav__link-color" href="#contact">Contact</a>       
+            </div>
+        </div>
+    </nav>
+
+    <header class="home" id="home">
+        <div class="home__profile">
+            <img class="profile__img" src="Pictures/Programador.png" alt="">
+            <div class="profile__text">
+                <div class="profile__title">Hi!</div>
+                <h1 class="profile__name">I'm Juan Pablo Juguera</h1>
+                <div class="profile__title">FRONTEND DEVELOPER</div>
+            </div>
+        </div>
+        
+        <p class="profile__location">Based in Buenos Aires , Argentina</p>
+
+        <a class="download__button" href="Pictures/cv.eps" download>
+                <i class="fa-solid fa-arrow-down"></i>
+                <p class="download__text">Download CV</p> 
+        </a>
+    </header>
+
+    <div class="section__div" id="about"> </div>
+
+    <section class="about">
+        <h2 class="about__title">ABOUT ME</h2>
+        <h3 class="about__subtitle">SKILLS</h3>
+
+        <div class="about__skills">
+            <img class="about__skill" src="Pictures/html-icon.png" alt="HTML">
+            <img class="about__skill" src="Pictures/CSS-icon.png" alt="CSS">
+            <img class="about__skill" src="Pictures/js-icon.png" alt="JS">
+            <img class="about__skill" src="Pictures/git2-icon.png" alt="GIT">
+            <img class="about__skill" src="Pictures/sass-icon.png" alt="SASS">
+        </div>  
+
+        <h3 class="about__hobbies">HOBBIES</h3>
+        <div class="hobbies">
+            <div class="hobbie">
+                <img class="hobbie__img" src="Pictures/gym-icon.png" alt="gym">
+                <h3 class="hobbie__title">Gym</h3>
+                <p class="hobbie__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus nostrum similique quia dolores deleniti voluptate provident neque, blanditiis tempora ad consequ.</p>
+            </div>
+
+            <div class="hobbie">
+                <img class="hobbie__img" src="Pictures/gaming-icon.png" alt="gaming">
+                <h3 class="hobbie__title">Gaming</h3>
+                <p class="hobbie__desc">Lorem m similique quia dolores deleniti voluptate provident neque, blanditiis tempora ad consequatur numquam id impedit, ea sapiente, exercitationem nisi temporibus omnis.</p>
+            </div>
+
+            <div class="hobbie">
+                <img class="hobbie__img" src="Pictures/bike-icon.png" alt="bike">
+                <h3 class="hobbie__title">Biking</h3>
+                <p class="hobbie__desc">Lorem ipsum dolor,ing elit. Voluptatibus nostrum similique quia dolores deleniti voluptate provident neque, blanditiis tempora ad consequatur numquam id impedit, ea sapiente, exercitationem nisi temporibus omnis.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="section__div" id="projects"> </div>
+
+    <section class="projects">
+        <h2 class="projects__title about__title">PROJECTS</h2>
+        <div class="projects__container">
+
+            <div class="project__container">
+                <h3 class="project__title">Project 1</h3>
+                <img class="project__img" src="Pictures/project1.jpg" alt="Img project1">
+                <div class="project__skills">
+                    <img class="project__skill" src="Pictures/html-icon.png" alt="HTML">
+                    <img class="project__skill" src="Pictures/CSS-icon.png" alt="CSS">
+                </div>
+                <p class="project__desc hobbie__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque molestias dolorem harum esse hic. Laboriosam nostrum nobis non tempora odio delectus voluptate dolorum repudiandae dolor. Rerum error sed distinctio aut?</p>
+                <div class="project__links"> 
+                    <a class="project__link" href="#">Github</a> | <a class="project__link" href="#">Repository</a>
+                </div>
+            </div>
+
+            <div class="project__container">
+                <h3 class="project__title">Project 2</h3>
+                <img class="project__img" src="Pictures/project2.png" alt="Img project2">
+                <div class="project__skills">
+                    <img class="project__skill" src="Pictures/html-icon.png" alt="HTML">
+                    <img class="project__skill" src="Pictures/CSS-icon.png" alt="CSS">
+                    <img class="project__skill" src="Pictures/js-icon.png" alt="JS">
+                </div>
+                <p class="project__desc hobbie__desc">adipisicing elit. Doloremque molestias dolorem harum esse hic. Laboriosam nostrum nobis non tempora odio delectus voluptate dolorum repudiandae dolor. Rerum error sed distinctio aut?</p>
+                <div class="project__links"> 
+                    <a class="project__link" href="#">Github</a> | <a class="project__link" href="#">Repository</a>
+                </div>
+            </div>
+
+            <div class="project__container">
+                <h3 class="project__title">Project 3</h3>
+                <img class="project__img" src="Pictures/project3.jpeg" alt="Img project3">
+                <div class="project__skills">
+                    <img class="project__skill" src="Pictures/html-icon.png" alt="HTML">
+                    <img class="project__skill" src="Pictures/CSS-icon.png" alt="CSS">
+                    <img class="project__skill" src="Pictures/js-icon.png" alt="JS">
+                </div>
+                <p class="project__desc hobbie__desc">adipisicing elit. Doloremque molestias dolorem harum esse hic. Laboriosam nostrum nobis non tempora odio delectus voluptate dolorum repudiandae dolor. Rerum error sed distinctio aut?</p>
+                <div class="project__links"> 
+                    <a class="project__link" href="#">Github</a> | <a class="project__link" href="#">Repository</a>
+                </div>
+            </div>
+
+            <div class="project__container">
+                <h3 class="project__title">Project 4</h3>
+                <img class="project__img" src="Pictures/project4.jpeg" alt="Img project4">
+                <div class="project__skills">
+                    <img class="project__skill" src="Pictures/html-icon.png" alt="HTML">
+                    <img class="project__skill" src="Pictures/CSS-icon.png" alt="CSS">
+                </div>
+                <p class="project__desc hobbie__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas labore, veniam iusto obcaecati vitae ea. Esse et eligendi fugiat unde, rem vitae cumque ipsa, libero quis nobis, dolores quas dolorem?</p>
+                <div class="project__links"> 
+                    <a class="project__link" href="#">Github</a> | <a class="project__link" href="#">Repository</a>
+                </div>
+            </div>
+
+        </div>
+    </section> 
+
+    <div class="section__div"> </div>
+
+    <section id="contact">
+        <h2 class="contact__title about__title">CONTACT</h2>
+        <p class="contact__subtitle hobbie__desc">Contact me if you want to work with me</p>
+        <div class="contact__container">
+            <div class="contact__div">
+                <a href="mailto:juampijuguera@gmail.com" target="_blank"" Subject="Hi i want to work with you"><img class="contact__img" src="Pictures/gmail-icon.png" alt="gmail"></a>
+                <p class="contact__info">Mail me!</p>
+            </div>
+            <div class="contact__div">
+                <a href="https://github.com/JuampiJuguera" target="_blank"><img class="contact__img" src="Pictures/git-icon.png" alt="github"></a>
+                <p class="contact__info">Follow me!</p>
+            </div>
+            <div class="contact__div">
+                <a href="#"><img class="contact__img" src="Pictures/linkedin-icon.png" alt="linkedin"></a>
+                <p class="contact__info">Contact me!</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p class="footer__text">@Copyright juampijuguera.dev all rights reserved</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

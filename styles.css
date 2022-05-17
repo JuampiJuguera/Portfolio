@@ -1,0 +1,487 @@
+*{
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #EBDCCB;
+}
+
+/*------------------------------------------------------MOBILE------------------------------------------------------------------------------------------*/
+
+/*----------------------nav-------------------------*/
+
+nav{
+    padding-top: 0.1em;
+    background-color: #0B486B;
+}
+
+.fa-bars{
+    position: fixed;
+    z-index: 1;
+    margin: 0.5em 0.2em;
+    font-size: 1.6em;
+    padding: 0.6em;
+    border-radius: 0.7em;
+    background-color: #3BC3A4;
+    color: #EBDCCB;
+    box-shadow: 2px 2px 10px #06283B;
+}
+
+.nav__links{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    margin: 2em 1em 0;
+    width: 90%;
+    height: 35vh;
+    border-radius: 1em;
+    background-color: #EBDCCB;
+    box-shadow: 2px 2px 10px;
+}
+
+.nav__links{
+    padding-top: 0.9em;
+    font-size: 1.2em;
+}
+
+.nav__link-color{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25%;
+    width: 100%;
+    background-color: #C4C4C4;
+}
+
+.nav__links a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #0B486B;
+}
+
+/*---------------------------header------------------*/
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0B486B;
+}
+
+/*-------profile--------*/
+
+.home__profile{
+    display: flex;
+    background-color: #EBDCCB;
+    border-radius: 1em;
+    width: 90%;
+    margin: 2em 1em;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px #06283B;
+}
+
+.home__profile img{
+    padding: 1em 2em 0 0;
+    margin: 1em;
+    height: 12em;
+}
+
+.profile__text{
+    padding: 1em;
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: 800;
+    background-color: #C4C4C4;
+}
+
+.profile__title{
+    color: #E5384F;
+}
+
+.profile__name{
+    font-size: 1.2em;
+    color: #0B486B;
+}
+
+.profile__location{
+    margin-bottom: 1.5em;
+    color: #EBDCCB;
+}
+
+/*-------Download--------*/
+
+.download__button{
+    display: flex;
+    align-items: center;
+    padding: 0.5em;    
+    margin-bottom: 1.6em;
+    border: none;
+    border-radius: 1em;
+    text-decoration: none;
+    color: #EBDCCB;
+    background-color: #3BC3A4;
+    box-shadow: 2px 2px 10px #06283B;
+}
+
+.fa-arrow-down{
+    border-radius: 50%;
+    padding: 0.5em;
+    margin-right: 0.6em;
+    font-size: 1.8em;
+    color: #0B486B;
+    background-color: #EBDCCB;
+}
+
+.download__text{
+    padding-right: 0.8em;
+    font-size: 1.2em;
+    background-color: #3BC3A4;
+}
+
+/*---------------------------About Me------------------*/
+
+.section__div{
+    background-color: #EBDCCB;
+    padding-top: 3em;
+}
+
+.about__title{
+    padding: 1em;
+    font-size: 2em;
+    text-align: center;
+    color: #E5384F;
+    background-color: #C4C4C4;
+}
+
+/*-------About--------*/
+
+
+.about__subtitle{
+    padding: 0.4em 0 0.3em 0.3em;
+    font-size: 1.7em;
+    color: #0B486B;
+}
+
+/*-------Skills--------*/
+
+.about__skills{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about__skill{
+    margin: 0.4em;
+    height: 5em;
+}
+
+
+/*-------Hobbies--------*/
+
+.about__hobbies{
+    padding: 0.4em 0 0.3em 0.3em;
+    font-size: 1.7em;
+    background-color: #C4C4C4;
+    color: #0B486B;
+}
+
+.hobbie{
+    text-align: center;
+    background-color: #C4C4C4;
+}
+
+.hobbie img{
+    height: 12em;
+}
+
+.hobbie__title{
+    margin: 0.3em;
+    font-size: 1.8em;
+    color: #E5384F;
+}
+
+.hobbie__desc{
+    padding-bottom: 1.2em;
+    color: #0B486B;
+}
+
+/*---------------------------Projects------------------*/
+
+.projects{
+    background-color: #C4C4C4;
+}
+
+.projects__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project__container{
+    padding-bottom: 0.3em;
+    margin-bottom: 2em;
+    margin: 1.2em;
+    width: 90%;
+    border-radius: 1em;
+    text-align: center;
+    background-color: #EBDCCB;
+}
+
+.project_img{
+    width: 50em;
+}
+
+.project__title{
+    margin: 1em;
+    font-size: 1.5em;
+    color: #E5384F;
+}
+
+.project__skills{
+    display: flex;
+    justify-content: center;
+}
+
+.project__skill{
+    margin: 0.5em 1em 0; 
+    height: 2em;
+}
+
+.project__desc{
+    margin: 0.5em 1em 0 1em;
+}
+
+.project__link{
+    text-decoration: none;
+    color: #0B486B;
+}
+
+.project__links{
+    color: #0B486B;
+}
+
+
+
+/*-------Project--------*/
+
+/*---------------------------Contact------------------*/
+
+.contact__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact__subtitle{
+    text-align: center;
+    margin: 1em;
+} 
+
+/*-------Contact--------*/
+
+.contact__img{
+    height: 10em;
+}
+
+.contact__info{
+    padding: 1em;
+    font-size: 1.5em;
+    color: #0B486B;
+}
+
+/*---------------------------Footer------------------*/
+
+footer{
+    padding: 3em;
+    text-align: center;
+    background-color: #C4C4C4;
+}
+
+/*------------------------------------------------------DESKTOP------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width : 700px) {
+
+/*----------------------nav-------------------------*/
+
+.fa-bars{
+    display: none;
+}
+
+.nav__bar{
+    margin: -0.1em 0;
+    position:fixed;
+    display: flex;
+    width: 100%;
+    background-color: #B5B5B5;
+    justify-content: flex-end;
+    align-items: center;
+    height: 3em;
+}
+
+.nav__links{
+    flex-direction: row;
+    width: 25em;
+    height: 1.7em;
+    margin: 0 1em;
+    border-radius: 25px;
+    padding: 0 2em;
+    background-color: #EBDCCB;
+    box-shadow: inset -5px 6px 5px -4px #958C83;
+}
+
+.nav__link{
+    text-align: center;
+    background-color: #EBDCCB;
+    padding-left: 1.2em;
+    font-size: 0.8em;
+    font-weight:normal;
+}
+
+.nav__link:hover,.project__link:hover{
+    color:#06283B;
+}
+/*---------------------------header------------------*/
+
+/*-------profile--------*/
+
+.home__profile{
+    margin: 6em 0 2em 0em;
+    width: 28em;
+}
+
+.home__profile img{
+    height: 19em;
+}
+
+.profile__name{
+    font-size: 1.6em;
+}
+
+.profile__title{
+    font-size: 1.4em
+}
+
+.profile__location{
+    text-align: center;
+    font-size: 1.3em;
+    margin: 0.5em 0 1.9em 0;
+}
+
+/*-------download--------*/
+
+.download__button{
+    margin-bottom: 4em;
+}
+
+.fa-arrow-down{
+    font-size: 1.9em;
+    padding: 0.5em;
+}
+
+.download__text{
+    margin: 0 0 0 -0.5em;
+    padding: 0 0.5em;
+    font-size: 2em;
+}
+
+/*---------------------------About Me----------------*/
+
+/*-------About--------*/
+
+.about__subtitle{
+    padding: 0.5em;
+}
+
+/*-------Skills--------*/
+
+.about__skills{
+    justify-content: space-evenly;
+    margin: 1em;
+}
+
+.about__skill{
+    width: 7em;
+    height: 7em;
+}
+
+/*-------Hobbies--------*/
+
+.about__hobbies{
+    padding: 0.5em;
+}
+
+.hobbies{
+    display: flex;
+}
+
+.hobbie{
+    padding: 2em;
+}
+
+/*---------------------------Projects------------------*/
+
+.projects__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 2em;
+    
+}
+
+.project__container{
+    display: grid;
+    grid-template-rows: 60px 0.5fr 1fr 2.5fr;
+    width: 400px;
+    height: 550px;
+
+}
+
+.project__img{
+    width: 100%;
+    height: 250px;
+}
+
+.project__desc{
+    margin-left: 1em;
+}
+
+/*---------------------------Contact------------------*/
+
+.contact__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact__subtitle{
+    font-size: 1.3em;
+}
+
+.contact__div img,.download__button{
+    transition: .9s ease;
+    }
+    .contact__div:hover img,.download__button:hover{
+    transform:scale(1.10);
+    }
+    .contact__div{/*Ancho y altura son modificables al requerimiento de cada uno*/
+    width:300px;
+    height:180px;
+    }
+
+/*---------------------------Footer------------------*/
+
+footer{
+    margin-top: 3em;
+}
+
+}
